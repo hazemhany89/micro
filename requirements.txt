@@ -1,0 +1,11 @@
+streamlit
+pandas
+plotly
+python-dotenv
+google-api-python-client
+google-auth-oauthlib
+google-auth-httplib2
+pytrends
+newspaper3k
+nltk
+openai

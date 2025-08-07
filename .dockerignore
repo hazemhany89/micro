@@ -1,0 +1,20 @@
+# تجاهل الملفات والمجلدات غير الضرورية
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.git/
+.gitignore
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+\#*
+\.#*
+.env
+*.bak
