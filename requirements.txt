@@ -9,3 +9,4 @@ pytrends
 newspaper3k
 nltk
 openai
+youtube-search-python
