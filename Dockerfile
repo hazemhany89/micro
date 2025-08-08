@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN python -m nltk.downloader punkt
 
 # تعيين المنفذ الذي سيعمل عليه التطبيق
-EXPOSE 8501
+EXPOSE 8080
 
 # الأمر الذي سيتم تنفيذه عند تشغيل الحاوية
 CMD ["streamlit", "run", "app.py", "--server.port=8080", "--server.address=0.0.0.0"]
