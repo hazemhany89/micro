@@ -17,4 +17,4 @@ RUN python -m nltk.downloader punkt
 EXPOSE 8501
 
 # الأمر الذي سيتم تنفيذه عند تشغيل الحاوية
-CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "app.py", "--server.port=8080", "--server.address=0.0.0.0"]
